@@ -90,6 +90,56 @@ const colors = [
   'DodgerBlue',
   'CornflowerBlue',
   'MediumSlateBlue',
+  'RoyalBlue',
+  'Blue',
+  'MediumBlue',
+  'DarkBlue',
+  'Navy',
+  'MidnightBlue',
+  'Cornsilk',
+  'BlanchedAlmond',
+  'Bisque',
+  'NavajoWhite',
+  'Wheat',
+  'BurlyWood',
+  'Tan',
+  'RosyBrown',
+  'SandyBrown',
+  'Goldenrod',
+  'DarkGoldenrod',
+  'Peru',
+  'Chocolate',
+  'SaddleBrown',
+  'Sienna',
+  'Brown',
+  'Maroon',
+  'White',
+  'Snow',
+  'HoneyDew',
+  'MintCream',
+  'Azure',
+  'AliceBlue',
+  'GhostWhite',
+  'WhiteSmoke',
+  'SeaShell',
+  'Beige',
+  'OldLace',
+  'FloralWhite',
+  'Ivory',
+  'AntiqueWhite',
+  'Linen',
+  'LavenderBlush',
+  'MistyRose',
+  'Gainsboro',
+  'LightGray',
+  'Silver',
+  'DarkGray',
+  'Gray',
+  'DimGray',
+  'LightSlateGray',
+  'SlateGray',
+  'DarkSlateGray',
+  'Black',
 ]
 
 const btn = document.getElementById('btn')
@@ -104,54 +154,3 @@ btn.addEventListener('click', function () {
 function getRandomNumber() {
   return Math.floor(Math.random() * colors.length)
 }
-
-// RoyalBlue
-// Blue
-// MediumBlue
-// DarkBlue
-// Navy
-// MidnightBlue
-// Cornsilk
-// BlanchedAlmond
-// Bisque
-// NavajoWhite
-// Wheat
-// BurlyWood
-// Tan
-// RosyBrown
-// SandyBrown
-// Goldenrod
-// DarkGoldenrod
-// Peru
-// Chocolate
-// SaddleBrown
-// Sienna
-// Brown
-// Maroon
-// White
-// Snow
-// HoneyDew
-// MintCream
-// Azure
-// AliceBlue
-// GhostWhite
-// WhiteSmoke
-// SeaShell
-// Beige
-// OldLace
-// FloralWhite
-// Ivory
-// AntiqueWhite
-// Linen
-// LavenderBlush
-// MistyRose
-// Gainsboro
-// LightGray
-// Silver
-// DarkGray
-// Gray
-// DimGray
-// LightSlateGray
-// SlateGray
-// DarkSlateGray
-// Black
